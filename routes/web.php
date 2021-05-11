@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 //namespace App\Http\Controllers;
 use App\Http\Controllers;
 use App\Http\Controllers\HelloController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,6 +17,8 @@ use App\Http\Controllers\HelloController;
 */
 
  
+//Route::get('/',[HelloController::class,'index']);
+//Route::view('/','test');
 Route::get('/',[HelloController::class,'index']);
 
 

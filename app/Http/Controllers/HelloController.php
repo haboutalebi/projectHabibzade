@@ -8,7 +8,7 @@ class HelloController extends Controller
 {
     //
 
-    public function SayHello()
+    public function index()
     {
         return 'Hello world';
     }
